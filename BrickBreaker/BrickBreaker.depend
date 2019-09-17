@@ -1,0 +1,3519 @@
+# depslib dependency file v1.0
+1512432548 source:c:\users\sn\desktop\mainproject\brickbreaker\classes\ball.cpp
+	"Ball.h"
+	"NormalBall.h"
+	"ThroughBall.h"
+	"FireBall.h"
+	<math.h>
+
+1511156313 D
+	"Bat.h"
+	"Board.h"
+	"Bat.h"
+	"Ball.h"
+	"Statics.h"
+	"Board.h"
+	"Object.h"
+	"ScreenManager.h"
+	"Fire.h"
+	"q.h"
+	<SDL_mixer.h>
+	"Pop-Up.h"
+	"PowerUps.h"
+	<typeinfo>
+	"Statics.h"
+	"Ball.h"
+
+1512515202 c:\users\sn\desktop\mainproject\brickbreaker\classes\ball.h
+	"Object.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Bat.h"
+
+1511156313 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\classes\ball.h
+
+1512173592 509163e7ee30c483b30ed29ba1cfbb0f650ff
+	"Object.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"Object.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Board.h"
+	"Object.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Bat.h"
+	"Ball.h"
+	"Board.h"
+	"LTexture.h"
+	"NormalBall.h"
+	"Ball.h"
+	<math.h>
+	"Object.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Board.h"
+	"Bat.h"
+	"Ball.h"
+	"Fire.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Object.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Board.h"
+	"Bat.h"
+
+1512515069 c:\users\sn\desktop\mainproject\brickbreaker\classes\object.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Statics.h"
+
+1511163053 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\classes\object.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_main.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1506106371 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_stdinc.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1506106371 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_platform.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\begin_code.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\close_code.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1506106371 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\begin_code.h
+
+1506106371 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\close_code.h
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_assert.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_atomic.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_audio.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_error.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_endian.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_mutex.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	"close_code.h"
+
+1506106371 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_thread.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106371 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_rwops.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_clipboard.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_cpuinfo.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_events.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106371 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_video.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_pixels.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106371 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_rect.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106371 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_surface.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_keyboard.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1506106371 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_mouse.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_joystick.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_gamecontroller.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106371 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_gesture.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106371 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_touch.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_filesystem.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_haptic.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_hints.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_loadso.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_log.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_messagebox.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106371 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_power.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106371 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_render.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106371 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_shape.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106371 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_system.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106371 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_timer.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106371 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_version.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451800373 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\mingw_lib\include\sdl2\sdl_image.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\classes\ltexture.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+
+1511106296 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\classes\ltexture.h
+
+1512516485 c:\users\sn\desktop\mainproject\brickbreaker\classes\bat.h
+	"Object.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Board.h"
+	"Statics.h"
+
+1511163624 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\classes\board.h
+	"Queue.h"
+	"Object.h"
+	<typeinfo>
+
+1511106270 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\classes\bat.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\classes\board.h
+	"Node.h"
+	"Brick.h"
+	"LTexture.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"Statics.h"
+	"Point.h"
+	<ostream>
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\classes\node.h
+	"Brick.h"
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\classes\brick.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\classes\statics.h
+	"Point.h"
+	"Brick.h"
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\classes\point.h
+
+1512516439 source:c:\users\sn\desktop\mainproject\brickbreaker\classes\bat.cpp
+	"Bat.h"
+	"Board.h"
+
+1512432548 source:c:\users\sn\desktop\mainproject\brickbreaker\classes\board.cpp
+	"Board.h"
+	"Statics.h"
+	"Brick.h"
+	"Point.h"
+	<SDL.h>
+	<iostream>
+	<ostream>
+
+1512384357 source:c:\users\sn\desktop\mainproject\brickbreaker\classes\bricks.cpp
+
+1512432548 source:c:\users\sn\desktop\mainproject\brickbreaker\classes\button.cpp
+	"Button.h"
+	"Point.h"
+	<SDL.h>
+	<iostream>
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\classes\button.h
+	<string>
+	"Character.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Word.h"
+	"Statics.h"
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\classes\character.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Point.h"
+	<string>
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\classes\word.h
+	<string>
+	"Character.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+
+1512432548 source:c:\users\sn\desktop\mainproject\brickbreaker\classes\character.cpp
+	"Character.h"
+	<iostream>
+
+1512432548 source:c:\users\sn\desktop\mainproject\brickbreaker\classes\fire.cpp
+	"Fire.h"
+
+1512515880 c:\users\sn\desktop\mainproject\brickbreaker\classes\fire.h
+	"Object.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+
+1512515207 source:c:\users\sn\desktop\mainproject\brickbreaker\classes\fireball.cpp
+	"FireBall.h"
+	"Ball.h"
+	<math.h>
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\classes\fireball.h
+	"Object.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Board.h"
+	"Bat.h"
+	"Ball.h"
+
+1511106268 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\classes\bat.cpp
+	"Bat.h"
+	"Board.h"
+
+1511165588 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\classes\board.cpp
+	"Board.h"
+	<string>
+	<stdio.h>
+	<iostream>
+	<stdlib.h>
+	<fstream>
+	<time.h>
+
+1511106284 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\classes\fire.cpp
+	"Fire.h"
+
+1511106288 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\classes\fire.h
+
+1512432548 source:c:\users\sn\desktop\mainproject\brickbreaker\classes\gameover.cpp
+	"Pop-Up.h"
+	"Button.h"
+	"GamePlay.h"
+	"Menu.h"
+	"GameOver.h"
+	<iostream>
+
+1512432548 source:c:\users\sn\desktop\mainproject\brickbreaker\classes\ltexture.cpp
+	"LTexture.h"
+
+1512432548 source:c:\users\sn\desktop\mainproject\brickbreaker\classes\menu.cpp
+	"Menu.h"
+	"Button.h"
+	"GamePlay.h"
+	"DiskManager.h"
+	"LevelSelection.h"
+	<iostream>
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\classes\menu.h
+	"ScreenManager.h"
+	"Button.h"
+	"Statics.h"
+	"Pop-Up.h"
+	"SDL_mixer.h"
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\classes\screenmanager.h
+	<SDL.h>
+	<SDL_image.h>
+	"LTexture.h"
+	"Statics.h"
+
+1512519053 c:\users\sn\desktop\mainproject\brickbreaker\classes\gameplay.h
+	"Bat.h"
+	"Ball.h"
+	"Board.h"
+	"LTexture.h"
+	"Statics.h"
+	"Board.h"
+	"Object.h"
+	"ScreenManager.h"
+	"Fire.h"
+	"q.h"
+	<SDL_mixer.h>
+	"Pop-Up.h"
+	"PowerUps.h"
+	<typeinfo>
+
+1511165605 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\classes\gameplay.cpp
+	"GamePlay.h"
+	"Bat.h"
+	"NormalBall.h"
+	"Board.h"
+
+1511157049 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\classes\gameplay.h
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\classes\q.h
+	"node (2).h"
+	"Object.h"
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\classes\node (2).h
+	"Fire.h"
+	"Object.h"
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\classes\pop-up.h
+	"ScreenManager.h"
+	"Button.h"
+	"Statics.h"
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\classes\powerups.h
+	"Object.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+
+1512515903 source:c:\users\sn\desktop\mainproject\brickbreaker\classes\missilefire.cpp
+	"MissileFire.h"
+	"Fire.h"
+
+1512516199 c:\users\sn\desktop\mainproject\brickbreaker\classes\missilefire.h
+	"Fire.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+
+1512515880 source:c:\users\sn\desktop\mainproject\brickbreaker\classes\normalball.cpp
+	"NormalBall.h"
+	"Ball.h"
+	<math.h>
+
+1511106294 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\classes\ltexture.cpp
+	"LTexture.h"
+
+1511106302 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\classes\normalball.cpp
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\classes\normalball.h
+	"Object.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Board.h"
+	"Bat.h"
+	"Ball.h"
+	"Statics.h"
+
+1511106304 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\classes\normalball.h
+
+1512516199 source:c:\users\sn\desktop\mainproject\brickbreaker\classes\normalfire.cpp
+	"NormalFire.h"
+	"Fire.h"
+
+1512516199 c:\users\sn\desktop\mainproject\brickbreaker\classes\normalfire.h
+	"Fire.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+
+1511106306 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\classes\normalfire.cpp
+	"NormalFire.h"
+
+1511106310 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\classes\normalfire.h
+
+1512515069 source:c:\users\sn\desktop\mainproject\brickbreaker\classes\object.cpp
+	"Object.h"
+
+1512432548 source:c:\users\sn\desktop\mainproject\brickbreaker\classes\point.cpp
+	"Point.h"
+
+1512221953 source:c:\users\sn\desktop\mainproject\brickbreaker\classes\pop-up.cpp
+	"Pop-Up.h"
+	"Button.h"
+	"GamePlay.h"
+	"Menu.h"
+	<iostream>
+
+1512432548 source:c:\users\sn\desktop\mainproject\brickbreaker\classes\powerups.cpp
+	"PowerUps.h"
+	"string"
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<sstream>
+
+1512432548 source:c:\users\sn\desktop\mainproject\brickbreaker\classes\q.cpp
+	"q.h"
+	<iostream>
+
+1512432548 source:c:\users\sn\desktop\mainproject\brickbreaker\classes\screenmanager.cpp
+	"ScreenManager.h"
+
+1512515223 source:c:\users\sn\desktop\mainproject\brickbreaker\classes\throughball.cpp
+	"ThroughBall.h"
+	"Ball.h"
+	<math.h>
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\classes\throughball.h
+	"Object.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Board.h"
+	"Bat.h"
+	"Ball.h"
+
+1511163314 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\classes\object.cpp
+	"Object.h"
+
+1511106316 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\classes\point.cpp
+	"Point.h"
+
+1511037734 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\classes\point.h
+
+1511166036 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\main.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	"Classes/LTexture.h"
+	"Classes/Ball.h"
+	"Classes/Bat.h"
+	"Classes/Board.h"
+	"Classes/NormalBall.h"
+	"Classes/GamePlay.h"
+
+1511165426 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\classes\queue.h
+	"Node.h"
+	"Brick.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+
+1511165437 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\classes\node.h
+	"Brick.h"
+
+1511160986 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\classes\bricks.h
+
+1511160986 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\classes\bricks.cpp
+
+1511165398 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\classes\queue.cpp
+	"Queue.h"
+	<iostream>
+
+1511165039 w:\habib university\sophomore\3rd semester\oop cs-224\final project\brickbreaker\classes\brick.h
+
+1513799786 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\ball.cpp
+	"Ball.h"
+	"NormalBall.h"
+	"ThroughBall.h"
+	"FireBall.h"
+	<math.h>
+
+1512623632 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\ball.h
+	"Object.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Bat.h"
+
+1512432548 source:c:\users\sn\desktop\mainproject\brickbreaker\classes\word.cpp
+	<string>
+	<iostream>
+	"LTexture.h"
+	"Character.h"
+	"Word.h"
+
+1512432549 source:c:\users\sn\desktop\mainproject\brickbreaker\main.cpp
+	<SDL.h>
+	<SDL_mixer.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	"Classes/LTexture.h"
+	"Classes/Ball.h"
+	"Classes/Bat.h"
+	"Classes/Board.h"
+	"Classes/NormalBall.h"
+	"Classes/GamePlay.h"
+	"Classes/ScreenManager.h"
+	"Classes/Statics.h"
+	"Classes/Menu.h"
+	<iomanip>
+	<ctype.h>
+	<cstdlib>
+	<windows.h>
+	<conio.h>
+
+1512519053 source:c:\users\sn\desktop\mainproject\brickbreaker\classes\gameplay.cpp
+	"GamePlay.h"
+	"Bat.h"
+	"NormalBall.h"
+	"Board.h"
+	<string>
+	"Pop-Up.h"
+	"Options.h"
+	"GameOver.h"
+	"LevelComplete.h"
+	"PowerUps.h"
+	<string>
+	<stdio.h>
+	<iostream>
+	<stdlib.h>
+	<fstream>
+	<time.h>
+	<cmath>
+	"windows.h"
+	"FireBall.h"
+	"ThroughBall.h"
+	"NormalFire.h"
+	"MissileFire.h"
+	<SDL_mixer.h>
+	<SDL.h>
+	<sstream>
+	<conio.h>
+
+1512232555 
+
+1512721387 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\object.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Statics.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106371 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1506106371 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1506106371 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\begin_code.h
+
+1506106371 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\close_code.h
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106371 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	"close_code.h"
+
+1506106371 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106371 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106371 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106371 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1506106371 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106371 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106371 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106370 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106371 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106371 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106371 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106371 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106371 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506106371 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451800373 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1511106296 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\ltexture.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+
+1512292410 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\board.h
+	"Node.h"
+	"Brick.h"
+	"LTexture.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"Statics.h"
+	"Point.h"
+	<ostream>
+
+1511521208 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\queue.h
+	"Node.h"
+	"Brick.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+
+1511165437 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\node.h
+	"Brick.h"
+
+1511165039 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\brick.h
+
+1512723987 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\bat.h
+	"Object.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Board.h"
+	"Statics.h"
+
+1512724039 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\bat.cpp
+	"Bat.h"
+	"Board.h"
+
+1513800288 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\board.cpp
+	"Board.h"
+	"Statics.h"
+	"Brick.h"
+	"Point.h"
+	<SDL.h>
+	<iostream>
+	<ostream>
+
+1511160986 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\bricks.cpp
+
+1512362437 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\fire.cpp
+	"Fire.h"
+
+1512623632 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\fire.h
+	"Object.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+
+1513840710 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\gameplay.cpp
+	"GamePlay.h"
+	"Bat.h"
+	"NormalBall.h"
+	"Board.h"
+	<string>
+	"Pop-Up.h"
+	"Options.h"
+	"GameOver.h"
+	"LevelComplete.h"
+	"PowerUps.h"
+	<string>
+	<stdio.h>
+	<iostream>
+	<stdlib.h>
+	<fstream>
+	<time.h>
+	<cmath>
+	"windows.h"
+	"FireBall.h"
+	"ThroughBall.h"
+	"NormalFire.h"
+	"MissileFire.h"
+	<SDL_mixer.h>
+	<SDL.h>
+	<sstream>
+	<conio.h>
+
+1512657910 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\gameplay.h
+	"Bat.h"
+	"Ball.h"
+	"Board.h"
+	"LTexture.h"
+	"Statics.h"
+	"Board.h"
+	"Object.h"
+	"ScreenManager.h"
+	"Fire.h"
+	"q.h"
+	<SDL_mixer.h>
+	"Pop-Up.h"
+	"PowerUps.h"
+	<typeinfo>
+
+1512362441 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\normalball.h
+	"Object.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Board.h"
+	"Bat.h"
+	"Ball.h"
+	"Statics.h"
+
+1511106294 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\ltexture.cpp
+	"LTexture.h"
+
+1512623632 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\normalball.cpp
+	"NormalBall.h"
+	"Ball.h"
+	<math.h>
+
+1512623632 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\normalfire.cpp
+	"NormalFire.h"
+	"Fire.h"
+
+1512623632 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\normalfire.h
+	"Fire.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+
+1512721356 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\object.cpp
+	"Object.h"
+
+1511465021 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\point.cpp
+	"Point.h"
+
+1511465021 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\point.h
+
+1511165398 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\queue.cpp
+	"Queue.h"
+	<iostream>
+
+1511465021 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\screenmanager.cpp
+	"ScreenManager.h"
+
+1511992108 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\screenmanager.h
+	<SDL.h>
+	<SDL_image.h>
+	"LTexture.h"
+	"Statics.h"
+
+1512734763 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\main.cpp
+	<SDL.h>
+	<SDL_mixer.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	"Classes/LTexture.h"
+	"Classes/Ball.h"
+	"Classes/Bat.h"
+	"Classes/Board.h"
+	"Classes/NormalBall.h"
+	"Classes/GamePlay.h"
+	"Classes/ScreenManager.h"
+	"Classes/Statics.h"
+	"Classes/Menu.h"
+	<iomanip>
+	<ctype.h>
+	<cstdlib>
+	<windows.h>
+	<conio.h>
+
+1511277225 c:\users\sn\desktop\mainproject\brickbreaker\classes\queue.h
+	"Node.h"
+	"Brick.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+
+1511277225 source:c:\users\sn\desktop\mainproject\brickbreaker\classes\queue.cpp
+	"Queue.h"
+	<iostream>
+
+1512055410 source:c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\ball.cpp
+	"Ball.h"
+	<math.h>
+
+1512055410 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\ball.h
+	"Object.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Bat.h"
+
+1512055410 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\object.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\begin_code.h
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\close_code.h
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	"close_code.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1511444716 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1511444715 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\ltexture.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+
+1512055410 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\board.h
+	"Node.h"
+	"Brick.h"
+	"LTexture.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"Statics.h"
+	"Point.h"
+
+1511444715 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\queue.h
+	"Node.h"
+	"Brick.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+
+1511444715 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\node.h
+	"Brick.h"
+
+1511444715 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\brick.h
+
+1512055410 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\bat.h
+	"Object.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Board.h"
+
+1512055410 source:c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\bat.cpp
+	"Bat.h"
+	"Board.h"
+
+1511444715 source:c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\bricks.cpp
+
+1512055410 source:c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\fire.cpp
+	"Fire.h"
+
+1512055410 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\fire.h
+	"Object.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+
+1512156945 source:c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\gameplay.cpp
+	"GamePlay.h"
+	"Bat.h"
+	"NormalBall.h"
+	"Board.h"
+	<string>
+	"Pop-Up.h"
+	"Options.h"
+	"GameOver.h"
+	"LevelComplete.h"
+	<string>
+	<stdio.h>
+	<iostream>
+	<stdlib.h>
+	<fstream>
+	<time.h>
+	"windows.h"
+	"FireBall.h"
+	"ThroughBall.h"
+	"NormalFire.h"
+	"MissileFire.h"
+	<SDL_mixer.h>
+	<SDL.h>
+
+1512056191 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\gameplay.h
+	"Bat.h"
+	"Ball.h"
+	"Board.h"
+	"LTexture.h"
+	"Statics.h"
+	"Board.h"
+	"Object.h"
+	"ScreenManager.h"
+	"Fire.h"
+	"q.h"
+	<SDL_mixer.h>
+	"Pop-Up.h"
+	<typeinfo>
+
+1512055410 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\normalball.h
+	"Object.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Board.h"
+	"Bat.h"
+	"Ball.h"
+	"Statics.h"
+
+1511444715 source:c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\ltexture.cpp
+	"LTexture.h"
+
+1512055410 source:c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\normalball.cpp
+	"NormalBall.h"
+	"Ball.h"
+	<math.h>
+
+1512055410 source:c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\normalfire.cpp
+	"NormalFire.h"
+	"Fire.h"
+
+1512055410 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\normalfire.h
+	"Fire.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+
+1512055410 source:c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\object.cpp
+	"Object.h"
+
+1511448936 source:c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\point.cpp
+	"Point.h"
+
+1511448927 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\point.h
+
+1511444715 source:c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\queue.cpp
+	"Queue.h"
+	<iostream>
+
+1511449276 source:c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\screenmanager.cpp
+	"ScreenManager.h"
+
+1512055410 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\screenmanager.h
+	<SDL.h>
+	<SDL_image.h>
+	"LTexture.h"
+	"Statics.h"
+
+1512181573 source:c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\main.cpp
+	<SDL.h>
+	<SDL_mixer.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	"Classes/LTexture.h"
+	"Classes/Ball.h"
+	"Classes/Bat.h"
+	"Classes/Board.h"
+	"Classes/NormalBall.h"
+	"Classes/GamePlay.h"
+	"Classes/ScreenManager.h"
+	"Classes/Statics.h"
+	"Classes/Menu.h"
+	<iomanip>
+	<ctype.h>
+	<cstdlib>
+	<windows.h>
+	<conio.h>
+
+1512055407 source:c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\button.cpp
+	"Button.h"
+	"Point.h"
+	<SDL.h>
+	<iostream>
+
+1512055407 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\button.h
+	<string>
+	"Character.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Word.h"
+	"Statics.h"
+
+1511518930 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\character.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Point.h"
+	<string>
+
+1511272284 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\word.h
+	<string>
+	"Character.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+
+1512159029 source:c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\character.cpp
+	"Character.h"
+	<iostream>
+
+1512158006 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\statics.h
+
+1512182423 source:c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\menu.cpp
+	"Menu.h"
+	"Button.h"
+	"GamePlay.h"
+	"LevelSelection.h"
+	<iostream>
+
+1512163651 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\menu.h
+	"ScreenManager.h"
+	"Button.h"
+	"Statics.h"
+	"Pop-Up.h"
+
+1511518930 source:c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\word.cpp
+	<string>
+	<iostream>
+	"LTexture.h"
+	"Character.h"
+	"Word.h"
+
+1512724166 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\statics.h
+	"Point.h"
+	"Brick.h"
+
+1513840532 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\menu.cpp
+	"Menu.h"
+	"Button.h"
+	"GamePlay.h"
+	"DiskManager.h"
+	"LevelSelection.h"
+	<iostream>
+
+1513840471 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\menu.h
+	"ScreenManager.h"
+	"Button.h"
+	"Statics.h"
+	"Pop-Up.h"
+	"SDL_mixer.h"
+
+1512121798 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\button.h
+	<string>
+	"Character.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Word.h"
+	"Statics.h"
+
+1512362437 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\character.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Point.h"
+	<string>
+
+1512362437 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\word.h
+	<string>
+	"Character.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+
+1512360245 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\button.cpp
+	"Button.h"
+	"Point.h"
+	<SDL.h>
+	<iostream>
+
+1512362437 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\character.cpp
+	"Character.h"
+	<iostream>
+
+1512760373 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\word.cpp
+	<string>
+	<iostream>
+	"LTexture.h"
+	"Character.h"
+	"Word.h"
+
+1512055410 source:c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\board.cpp
+	"Board.h"
+	"Statics.h"
+	"Brick.h"
+	"Point.h"
+	<SDL.h>
+	<iostream>
+
+1512150451 source:c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\pop-up.cpp
+	"Pop-Up.h"
+
+1512155945 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\pop-up.h
+	"ScreenManager.h"
+	"Button.h"
+	"Statics.h"
+
+1512055410 source:c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\fireball.cpp
+	"FireBall.h"
+	"Ball.h"
+	<math.h>
+
+1512055410 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\fireball.h
+	"Object.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Board.h"
+	"Bat.h"
+	"Ball.h"
+
+1512055410 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\q.h
+	"node (2).h"
+
+1512055410 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\node (2).h
+	"Fire.h"
+	"Object.h"
+
+1512055410 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1512055410 source:c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\missilefire.cpp
+	"MissileFire.h"
+	"Fire.h"
+
+1512055410 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\missilefire.h
+	"Fire.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+
+1512055410 source:c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\q.cpp
+	"q.h"
+	<iostream>
+
+1512055410 source:c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\throughball.cpp
+	"ThroughBall.h"
+	"Ball.h"
+	<math.h>
+
+1512055410 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\throughball.h
+	"Object.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Board.h"
+	"Bat.h"
+	"Ball.h"
+
+1512177176 source:c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\gameover.cpp
+	"Pop-Up.h"
+	"Button.h"
+	"GamePlay.h"
+	"Menu.h"
+	"GameOver.h"
+	<iostream>
+
+1512155936 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\options.h
+	"ScreenManager.h"
+	"Button.h"
+	"Statics.h"
+
+1512155635 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\gameover.h
+	"ScreenManager.h"
+	"Button.h"
+	"Statics.h"
+
+1512157286 source:c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\options.cpp
+	"Pop-Up.h"
+	"Button.h"
+	"GamePlay.h"
+	"Menu.h"
+	"Options.h"
+	<iostream>
+
+1512156693 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\levelcomplete.h
+	"ScreenManager.h"
+	"Button.h"
+	"Statics.h"
+
+1512180834 source:c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\levelcomplete.cpp
+	"Pop-Up.h"
+	"Button.h"
+	"GamePlay.h"
+	"Menu.h"
+	"LevelComplete.h"
+	<iostream>
+
+1512175785 source:c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\levelselection.cpp
+	"Pop-Up.h"
+	"Button.h"
+	"GamePlay.h"
+	"Menu.h"
+	"LevelSelection.h"
+	<iostream>
+
+1512173592 c:\users\hp\downloads\fall 2017\oop\project\mainproject\brickbreaker\classes\levelselection.h
+	"ScreenManager.h"
+	"Button.h"
+	"Statics.h"
+
+1512623632 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\missilefire.cpp
+	"MissileFire.h"
+	"Fire.h"
+
+1512623632 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\missilefire.h
+	"Fire.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+
+1512720681 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\diskmanager.cpp
+	"DiskManager.h"
+	"NormalBall.h"
+	"ThroughBall.h"
+	"FireBall.h"
+	<iostream>
+	<fstream>
+	<cstdlib>
+
+1512233205 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\diskmanager.h
+	"GamePlay.h"
+
+1512310284 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\q.h
+	"node (2).h"
+	"Object.h"
+
+1511878219 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\node (2).h
+	"Fire.h"
+	"Object.h"
+
+1508772768 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1512233207 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\pop-up.h
+	"ScreenManager.h"
+	"Button.h"
+	"Statics.h"
+
+1512722158 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\powerups.h
+	"Object.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+
+1512623632 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\fireball.cpp
+	"FireBall.h"
+	"Ball.h"
+	<math.h>
+
+1512362441 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\fireball.h
+	"Object.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Board.h"
+	"Bat.h"
+	"Ball.h"
+
+1512725382 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\gameover.cpp
+	"Pop-Up.h"
+	"Button.h"
+	"GamePlay.h"
+	"Menu.h"
+	"GameOver.h"
+	<iostream>
+
+1512333067 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\gameover.h
+	"SDL_mixer.h"
+	"ScreenManager.h"
+	"Button.h"
+	"Statics.h"
+
+1512333068 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\options.h
+	"ScreenManager.h"
+	"Button.h"
+	"Statics.h"
+
+1512333067 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\levelcomplete.h
+	"ScreenManager.h"
+	"Button.h"
+	"Statics.h"
+
+1512362441 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\throughball.h
+	"Object.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Board.h"
+	"Bat.h"
+	"Ball.h"
+
+1512362437 w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\levelselection.h
+	"ScreenManager.h"
+	"Button.h"
+	"Statics.h"
+
+1512322630 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\q.cpp
+	"q.h"
+	<iostream>
+
+1512623632 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\throughball.cpp
+	"ThroughBall.h"
+	"Ball.h"
+	<math.h>
+
+1512725482 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\levelcomplete.cpp
+	"Pop-Up.h"
+	"Button.h"
+	"GamePlay.h"
+	"Menu.h"
+	"LevelComplete.h"
+	<iostream>
+
+1512734967 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\levelselection.cpp
+	"Pop-Up.h"
+	"Button.h"
+	"GamePlay.h"
+	"Menu.h"
+	"LevelSelection.h"
+	<iostream>
+
+1512725454 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\options.cpp
+	"Pop-Up.h"
+	"Button.h"
+	"GamePlay.h"
+	"Menu.h"
+	"Options.h"
+	"DiskManager.h"
+	<iostream>
+
+1512724744 source:w:\habib university\sophomore\3rd semester\oop cs-224\final project\mainproject\brickbreaker\classes\powerups.cpp
+	"PowerUps.h"
+	"string"
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<sstream>
+
+1512251780 source:d:\jannat\downloads\mainproject\brickbreaker\classes\ball.cpp
+	"Ball.h"
+	<math.h>
+
+1512251780 d:\jannat\downloads\mainproject\brickbreaker\classes\ball.h
+	"Object.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Bat.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\classes\object.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\begin_code.h
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\close_code.h
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\classes\ltexture.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+
+1512251780 d:\jannat\downloads\mainproject\brickbreaker\classes\bat.h
+	"Object.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Board.h"
+	"Statics.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\classes\board.h
+	"Node.h"
+	"Brick.h"
+	"LTexture.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"Statics.h"
+	"Point.h"
+	<ostream>
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\classes\node.h
+	"Brick.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\classes\brick.h
+
+1512251964 d:\jannat\downloads\mainproject\brickbreaker\classes\statics.h
+	"Point.h"
+	"Brick.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\classes\point.h
+
+1512251780 source:d:\jannat\downloads\mainproject\brickbreaker\classes\bat.cpp
+	"Bat.h"
+	"Board.h"
+
+1512251780 source:d:\jannat\downloads\mainproject\brickbreaker\classes\board.cpp
+	"Board.h"
+	"Statics.h"
+	"Brick.h"
+	"Point.h"
+	<SDL.h>
+	<iostream>
+	<ostream>
+
+1512251781 source:d:\jannat\downloads\mainproject\brickbreaker\classes\bricks.cpp
+
+1512251781 source:d:\jannat\downloads\mainproject\brickbreaker\classes\button.cpp
+	"Button.h"
+	"Point.h"
+	<SDL.h>
+	<iostream>
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\classes\button.h
+	<string>
+	"Character.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Word.h"
+	"Statics.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\classes\character.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Point.h"
+	<string>
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\classes\word.h
+	<string>
+	"Character.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+
+1512251781 source:d:\jannat\downloads\mainproject\brickbreaker\classes\character.cpp
+	"Character.h"
+	<iostream>
+
+1512251781 source:d:\jannat\downloads\mainproject\brickbreaker\classes\diskmanager.cpp
+	"DiskManager.h"
+	"NormalBall.h"
+	<iostream>
+	<fstream>
+	<cstdlib>
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\classes\diskmanager.h
+	"GamePlay.h"
+
+1512251975 d:\jannat\downloads\mainproject\brickbreaker\classes\gameplay.h
+	"Bat.h"
+	"Ball.h"
+	"Board.h"
+	"LTexture.h"
+	"Statics.h"
+	"Board.h"
+	"Object.h"
+	"ScreenManager.h"
+	"Fire.h"
+	"q.h"
+	<SDL_mixer.h>
+	"Pop-Up.h"
+	"PowerUps.h"
+	<typeinfo>
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\classes\screenmanager.h
+	<SDL.h>
+	<SDL_image.h>
+	"LTexture.h"
+	"Statics.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\classes\fire.h
+	"Object.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\classes\q.h
+	"node (2).h"
+	"Object.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\classes\node (2).h
+	"Fire.h"
+	"Object.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\mingw_lib\include\sdl2\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\classes\pop-up.h
+	"ScreenManager.h"
+	"Button.h"
+	"Statics.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\classes\powerups.h
+	"Object.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\classes\normalball.h
+	"Object.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Board.h"
+	"Bat.h"
+	"Ball.h"
+	"Statics.h"
+
+1512251781 source:d:\jannat\downloads\mainproject\brickbreaker\classes\fire.cpp
+	"Fire.h"
+
+1512251781 source:d:\jannat\downloads\mainproject\brickbreaker\classes\fireball.cpp
+	"FireBall.h"
+	"Ball.h"
+	<math.h>
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\classes\fireball.h
+	"Object.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Board.h"
+	"Bat.h"
+	"Ball.h"
+
+1512251781 source:d:\jannat\downloads\mainproject\brickbreaker\classes\gameover.cpp
+	"Pop-Up.h"
+	"Button.h"
+	"GamePlay.h"
+	"Menu.h"
+	"GameOver.h"
+	<iostream>
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\classes\menu.h
+	"ScreenManager.h"
+	"Button.h"
+	"Statics.h"
+	"Pop-Up.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\classes\gameover.h
+	"ScreenManager.h"
+	"Button.h"
+	"Statics.h"
+
+1512251781 source:d:\jannat\downloads\mainproject\brickbreaker\classes\levelcomplete.cpp
+	"Pop-Up.h"
+	"Button.h"
+	"GamePlay.h"
+	"Menu.h"
+	"LevelComplete.h"
+	<iostream>
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\classes\levelcomplete.h
+	"ScreenManager.h"
+	"Button.h"
+	"Statics.h"
+
+1512251781 source:d:\jannat\downloads\mainproject\brickbreaker\classes\levelselection.cpp
+	"Pop-Up.h"
+	"Button.h"
+	"GamePlay.h"
+	"Menu.h"
+	"LevelSelection.h"
+	<iostream>
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\classes\levelselection.h
+	"ScreenManager.h"
+	"Button.h"
+	"Statics.h"
+
+1512251781 source:d:\jannat\downloads\mainproject\brickbreaker\classes\ltexture.cpp
+	"LTexture.h"
+
+1512251781 source:d:\jannat\downloads\mainproject\brickbreaker\classes\menu.cpp
+	"Menu.h"
+	"Button.h"
+	"GamePlay.h"
+	"DiskManager.h"
+	"LevelSelection.h"
+	<iostream>
+
+1512251781 source:d:\jannat\downloads\mainproject\brickbreaker\classes\missilefire.cpp
+	"MissileFire.h"
+	"Fire.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\classes\missilefire.h
+	"Fire.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+
+1512251781 source:d:\jannat\downloads\mainproject\brickbreaker\classes\normalball.cpp
+	"NormalBall.h"
+	"Ball.h"
+	<math.h>
+
+1512251781 source:d:\jannat\downloads\mainproject\brickbreaker\classes\normalfire.cpp
+	"NormalFire.h"
+	"Fire.h"
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\classes\normalfire.h
+	"Fire.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+
+1512251781 source:d:\jannat\downloads\mainproject\brickbreaker\classes\object.cpp
+	"Object.h"
+
+1512251781 source:d:\jannat\downloads\mainproject\brickbreaker\classes\options.cpp
+	"Pop-Up.h"
+	"Button.h"
+	"GamePlay.h"
+	"Menu.h"
+	"Options.h"
+	<iostream>
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\classes\options.h
+	"ScreenManager.h"
+	"Button.h"
+	"Statics.h"
+
+1512251781 source:d:\jannat\downloads\mainproject\brickbreaker\classes\point.cpp
+	"Point.h"
+
+1512251781 source:d:\jannat\downloads\mainproject\brickbreaker\classes\powerups.cpp
+	"PowerUps.h"
+	"string"
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<sstream>
+
+1512251781 source:d:\jannat\downloads\mainproject\brickbreaker\classes\q.cpp
+	"q.h"
+	<iostream>
+
+1512251781 source:d:\jannat\downloads\mainproject\brickbreaker\classes\screenmanager.cpp
+	"ScreenManager.h"
+
+1512251781 source:d:\jannat\downloads\mainproject\brickbreaker\classes\throughball.cpp
+	"ThroughBall.h"
+	"Ball.h"
+	<math.h>
+
+1512251781 d:\jannat\downloads\mainproject\brickbreaker\classes\throughball.h
+	"Object.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Board.h"
+	"Bat.h"
+	"Ball.h"
+
+1512251781 source:d:\jannat\downloads\mainproject\brickbreaker\classes\word.cpp
+	<string>
+	<iostream>
+	"LTexture.h"
+	"Character.h"
+	"Word.h"
+
+1512251781 source:d:\jannat\downloads\mainproject\brickbreaker\main.cpp
+	<SDL.h>
+	<SDL_mixer.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	"Classes/LTexture.h"
+	"Classes/Ball.h"
+	"Classes/Bat.h"
+	"Classes/Board.h"
+	"Classes/NormalBall.h"
+	"Classes/GamePlay.h"
+	"Classes/ScreenManager.h"
+	"Classes/Statics.h"
+	"Classes/Menu.h"
+	<iomanip>
+	<ctype.h>
+	<cstdlib>
+	<windows.h>
+	<conio.h>
+
+1512259075 source:d:\jannat\downloads\mainproject\brickbreaker\classes\gameplay.cpp
+	"GamePlay.h"
+	"Bat.h"
+	"NormalBall.h"
+	"Board.h"
+	<string>
+	"Pop-Up.h"
+	"Options.h"
+	"GameOver.h"
+	"LevelComplete.h"
+	"PowerUps.h"
+	<string>
+	<stdio.h>
+	<iostream>
+	<stdlib.h>
+	<fstream>
+	<time.h>
+	<cmath>
+	"windows.h"
+	"FireBall.h"
+	"ThroughBall.h"
+	"NormalFire.h"
+	"MissileFire.h"
+	<SDL_mixer.h>
+	<SDL.h>
+	<sstream>
+	<conio.h>
+
+1512432548 source:c:\users\sn\desktop\mainproject\brickbreaker\classes\diskmanager.cpp
+	"DiskManager.h"
+	"NormalBall.h"
+	"ThroughBall.h"
+	"FireBall.h"
+	<iostream>
+	<fstream>
+	<cstdlib>
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\classes\diskmanager.h
+	"GamePlay.h"
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\classes\gameover.h
+	"SDL_mixer.h"
+	"ScreenManager.h"
+	"Button.h"
+	"Statics.h"
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\classes\options.h
+	"ScreenManager.h"
+	"Button.h"
+	"Statics.h"
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\classes\levelcomplete.h
+	"ScreenManager.h"
+	"Button.h"
+	"Statics.h"
+
+1512432548 source:c:\users\sn\desktop\mainproject\brickbreaker\classes\levelcomplete.cpp
+	"Pop-Up.h"
+	"Button.h"
+	"GamePlay.h"
+	"Menu.h"
+	"LevelComplete.h"
+	<iostream>
+
+1512432548 source:c:\users\sn\desktop\mainproject\brickbreaker\classes\levelselection.cpp
+	"Pop-Up.h"
+	"Button.h"
+	"GamePlay.h"
+	"Menu.h"
+	"LevelSelection.h"
+	<iostream>
+
+1512432548 c:\users\sn\desktop\mainproject\brickbreaker\classes\levelselection.h
+	"ScreenManager.h"
+	"Button.h"
+	"Statics.h"
+
+1512432548 source:c:\users\sn\desktop\mainproject\brickbreaker\classes\options.cpp
+	"Pop-Up.h"
+	"Button.h"
+	"GamePlay.h"
+	"Menu.h"
+	"Options.h"
+	"DiskManager.h"
+	<iostream>
+

@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <help_text>// Uncomment the following line to change the fontsize and font:
+fontsize=10
+// fontfamily=SansSerif //possible: SansSerif,Serif,Monospaced
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+// Welcome to UMLet!
+//
+// Double-click on elements to add them to the diagram, or to copy them
+// Edit elements by modifying the text in this panel
+// Hold Ctrl to select multiple elements
+// Use Ctrl+mouse to select via lasso
+//
+// Use +/- or Ctrl+mouse wheel to zoom
+// Drag a whole relation at its central square icon
+//
+// Press Ctrl+C to copy the whole diagram to the system clipboard (then just paste it to, eg, Word)
+// Edit the files in the "palettes" directory to create your own element palettes
+//
+// Select "Custom Elements &gt; New..." to create new element types
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// This text will be stored with each diagram;  use it for notes.</help_text>
+  <zoom_level>11</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>704</x>
+      <y>528</y>
+      <w>297</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;ScreenManager&gt;&gt;
+--
+# renderer:SDL_Renderer*
+--
++ScreenManager(SDL_Renderer*)
+/+show(frame:long int):void/
+/+click(x:int,y:int,MouseEventType,**ScreenManager)/
+/+keyboardClick(event,**ScreenManager)/
+/~ScreenManager()/
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>990</x>
+      <y>154</y>
+      <w>220</w>
+      <h>154</h>
+    </coordinates>
+    <panel_attributes>Button: Class
+--
+-center:Point
+-word:Word
+-color:ButtonColorType
+-isClicked:Bool
+-SpriteSheetTexture:LTexture
+--
++pointLiesInBounds(Point):Bool
++Draw(SDL_Renderer*): void
++setIsClicked(bool):void
++getIsClicked():Bool
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>165</x>
+      <y>187</y>
+      <w>110</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Point: Class
+--
++x:int
++y:int
+--
++ getX: int
++ getY: int
+bg=cyan</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1012</x>
+      <y>341</y>
+      <w>187</w>
+      <h>154</h>
+    </coordinates>
+    <panel_attributes>Word: Class
+--
++gRenderer:SDL_Renderer*
++length:int
++chars:Character*
++str:string
++x:float
++y:float
++spriteSheetTexture:LTexture*
+--
++Word(LTexture*,x:float,y:float,string)
++Render(SDL_Renderer*,bool):void
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1012</x>
+      <y>539</y>
+      <w>154</w>
+      <h>165</h>
+    </coordinates>
+    <panel_attributes>Character: Class
+--
+-position:Point
+-charValue,numValue,lowCharValue:int
+-width,height:int
+-spriteClips:SDL_Rect
+-spriteSheetTexture:LTexture*
+--
++Character(LTexture*,x:float,y:float,char)
++Render(SDL_Renderer*,bool):void
++SetPosition(Point&amp;):void
++GetFrameWidth():int
++GetFameHeight():int
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>627</x>
+      <y>374</y>
+      <w>231</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>Menu: Class
+--
+-newGame,loadGame,exitGame:Button
+-SpriteSheetTexture:LTexture
+-popup:Pop_Up*
+bg=green
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1078</x>
+      <y>484</y>
+      <w>33</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>715</x>
+      <y>429</y>
+      <w>33</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>275</x>
+      <y>176</y>
+      <w>297</w>
+      <h>385</h>
+    </coordinates>
+    <panel_attributes>GamePlay: Class
+--
+- isPaused: Bool
+- lives: int
+- popup: Pop_Up*
+- board:Board*
+- q:Queue*
+- renderer:SDL_Renderer*
+--
+-CreateLevel(int):void
+-CreateLevel(ShapeLevel):void
+-detectCollisionBetween(Bat*,Ball*):bool
+-detectCollisionBetween(Bat*, PowerUps*):bool
+-detectCollisionBetween(const SDL_Rect&amp; wall, Ball*):CollisionType
+-detectCollisionWithSides(Ball*):CollisionType
+-isBallActive(Ball*):bool
+-holdball: bool
+-blast: bool
+-mball: bool
+-mismake: bool
+-firemake: bool
+-MisActivate: bool
+-FireActivate: bool
+-ThroughActivate: bool
+-NormalActivate: bool
+-IspeedActivate: bool
+-dspeedActivate: bool
+-BigbActivate: bool
+-SmallbActivate: bool
+bg=#FF0000</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>561</x>
+      <y>528</y>
+      <w>165</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>130.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>572</x>
+      <y>176</y>
+      <w>275</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Pop_Up: Class&gt;&gt;
+--
+# renderer:SDL_Renderer*
+--
++Pop_UP(SDL_Renderer*)
+/+show(): void/
+/+click(x:int,y:int,MousezEventType,**ScreenManager,**Pop_Up)/
+/+keyboardClick(event,**ScreenManager,**Pop_Up)/
+/#loadMedia():bool/
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>594</x>
+      <y>671</y>
+      <w>132</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>Board: Class
+--
+brickoffsetx: float
+brickoffsety: float
+# texture: SDL_Texture
+--
++CreateLevel(int): void
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>935</x>
+      <y>836</y>
+      <w>154</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>NormalBall: Class
+--
+# texture: SDL_Texture
+bg=cyan</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>495</x>
+      <y>550</y>
+      <w>286</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0;240.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>550</x>
+      <y>506</y>
+      <w>66</w>
+      <h>187</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>20.0;10.0;10.0;10.0;10.0;150.0;40.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>352</x>
+      <y>748</y>
+      <w>231</w>
+      <h>187</h>
+    </coordinates>
+    <panel_attributes>Bat: Class
+--
+- isHolding: Bool
+- size: int
+-instance: Ball*
+# texture: SDL_Texture
+--
+-Bat()
++ moveLeft()
++ moveRight()
++ IncreaseSize()
++ DecreaseSize()
++ shouldLoad(Bool)
++GetInstance(): Ball*
+bg=cyan
+
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>77</x>
+      <y>462</y>
+      <w>198</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Object : Class&gt;&gt;
+--
++x,y,width,height:float
+#renderer:SDL_Renderer*
+--
++Object(SDL_Renderer*)
+/~Object()/
+/+Render(long int,SDL_Renderer*):void/
+/+ move():void/
+bg=orange
+
+
+
+
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>242</x>
+      <y>583</y>
+      <w>583</w>
+      <h>440</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;130.0;90.0;130.0;90.0;380.0;510.0;380.0;510.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>308</x>
+      <y>66</y>
+      <w>231</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>DiskManager: Class
+--
+_- saveGame(string): GamePlay_
+_- loadGame(string): GamePlay_
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>33</x>
+      <y>352</y>
+      <w>176</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;PowerUps: Class&gt;&gt;
+--
+- random: int
+- texture: SDL_Texture
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>33</x>
+      <y>528</y>
+      <w>363</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>310.0;30.0;310.0;80.0;10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>33</x>
+      <y>528</y>
+      <w>66</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>40.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>264</x>
+      <y>572</y>
+      <w>352</w>
+      <h>154</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;250.0;10.0;250.0;120.0;300.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>264</x>
+      <y>583</y>
+      <w>132</w>
+      <h>187</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0;100.0;100.0;100.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1067</x>
+      <y>297</y>
+      <w>44</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>20.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>209</x>
+      <y>286</y>
+      <w>33</w>
+      <h>198</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;160.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>473</x>
+      <y>550</y>
+      <w>33</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>968</x>
+      <y>77</y>
+      <w>231</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>GameOver: Class
+--
+-SpriteSheetTexture:LTexture
+-restart,quit:Button
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>44</x>
+      <y>627</y>
+      <w>154</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>Queue: Class
+--
+-head,tail:node*
+--
++Enqueue(Object*):void
++Clean():void
++Render(frame:long int,SDL_Renderer*):void
++Move():void
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>418</x>
+      <y>132</y>
+      <w>33</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>187</x>
+      <y>550</y>
+      <w>264</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;80.0;220.0;80.0;220.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>616</x>
+      <y>836</y>
+      <w>176</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>FireBall: Class
+--
+# texture: SDL_Texture
+bg=cyan</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>748</x>
+      <y>649</y>
+      <w>231</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>Ball: Class
+--
++alive,shouldMove:Bool
++dirx,diry,speedx,speedy,friction:float
++type:BallType
+--
+/+Move():void/
+/+ Move(float,float):void/
+/+SetDirection(float,float):void/
+/+didCollide()/
+bg=cyan
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>759</x>
+      <y>770</y>
+      <w>33</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>836</x>
+      <y>770</y>
+      <w>33</w>
+      <h>143</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>187</x>
+      <y>770</y>
+      <w>143</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>Fire: Class
+--
+# texture: SDL_Texture
+bg=cyan</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>770</y>
+      <w>165</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>NormalFire: Class
+--
+# texture: SDL_Texture
+bg=cyan</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>165</x>
+      <y>913</y>
+      <w>165</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>MissileFire: Class
+--
++ IncreaseDirection()
++ DecreaseDirection()
+# texture: SDL_Texture
+bg=cyan</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>253</x>
+      <y>825</y>
+      <w>33</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>77</x>
+      <y>825</y>
+      <w>187</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>150.0;10.0;150.0;70.0;10.0;70.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>594</x>
+      <y>781</y>
+      <w>55</w>
+      <h>143</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;110.0;30.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>627</x>
+      <y>891</y>
+      <w>132</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>Brick: Class
+--
+type: int
+brickType: int
+state: bool
+/#texture: SDL_Texture/
+
+--
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>814</x>
+      <y>891</y>
+      <w>198</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>ThroughBall: Class
+--
+# texture: SDL_Texture
+bg=cyan</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>946</x>
+      <y>770</y>
+      <w>33</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>220</x>
+      <y>583</y>
+      <w>33</w>
+      <h>209</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>968</x>
+      <y>0</y>
+      <w>231</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>LevelComplete: Class
+--
+-SpriteSheetTexture:LTexture
+-restart,nextLevel,quit:Button
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>671</x>
+      <y>0</y>
+      <w>231</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>LevelSelection: Class
+--
+-SpriteSheetTexture:LTexture
+-l1,l2,l3,l4,l5,l6,l7,l8,l9,l10:Button
+-circle,diamond,wave,backButton:Button
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>957</x>
+      <y>132</y>
+      <w>55</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0;30.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>935</x>
+      <y>55</y>
+      <w>77</w>
+      <h>165</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>30.0;10.0;10.0;10.0;10.0;130.0;50.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>671</x>
+      <y>77</y>
+      <w>231</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>Options:Class
+--
+-SpriteSheetTexture:LTexture
+-resume,save,restart,quit:Button
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>836</x>
+      <y>121</y>
+      <w>154</w>
+      <h>154</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;120.0;90.0;120.0;90.0;10.0;120.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>836</x>
+      <y>22</y>
+      <w>154</w>
+      <h>231</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;190.0;80.0;190.0;80.0;10.0;120.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>770</x>
+      <y>121</y>
+      <w>33</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>638</x>
+      <y>33</y>
+      <w>55</w>
+      <h>165</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;130.0;10.0;10.0;30.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>880</x>
+      <y>121</y>
+      <w>132</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0;100.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>891</x>
+      <y>0</y>
+      <w>121</w>
+      <h>231</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;20.0;10.0;20.0;190.0;90.0;190.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>77</x>
+      <y>33</y>
+      <w>198</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>Statics: Class
+--
+MouseEventype:enum
+CollisionType:enum
+BallType:enum
+FireType:enum
+ButtonColorType:enum
+ScreenWidth,ScreenHeight:int
+BoardWidth,BoardHeight:int
+BallSize:Point
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>847</x>
+      <y>297</y>
+      <w>165</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;90.0;130.0;10.0</additional_attributes>
+  </element>
+</diagram>

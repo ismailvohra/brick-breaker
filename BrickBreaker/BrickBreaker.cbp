@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="BrickBreaker" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/BrickBreaker" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="Classes" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/BrickBreaker" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="Classes" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lSDL2_mixer" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="MINGW_Lib/include/SDL2" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer" />
+			<Add directory="MINGW_Lib/lib" />
+		</Linker>
+		<Unit filename="Classes/Ball.cpp" />
+		<Unit filename="Classes/Ball.h" />
+		<Unit filename="Classes/Bat.cpp" />
+		<Unit filename="Classes/Bat.h" />
+		<Unit filename="Classes/Board.cpp" />
+		<Unit filename="Classes/Board.h" />
+		<Unit filename="Classes/Brick.h" />
+		<Unit filename="Classes/Button.cpp" />
+		<Unit filename="Classes/Button.h" />
+		<Unit filename="Classes/Character.cpp" />
+		<Unit filename="Classes/Character.h" />
+		<Unit filename="Classes/DiskManager.cpp" />
+		<Unit filename="Classes/DiskManager.h" />
+		<Unit filename="Classes/Fire.cpp" />
+		<Unit filename="Classes/Fire.h" />
+		<Unit filename="Classes/FireBall.cpp" />
+		<Unit filename="Classes/FireBall.h" />
+		<Unit filename="Classes/GameOver.cpp" />
+		<Unit filename="Classes/GameOver.h" />
+		<Unit filename="Classes/GamePlay.cpp" />
+		<Unit filename="Classes/GamePlay.h" />
+		<Unit filename="Classes/LTexture.cpp" />
+		<Unit filename="Classes/LTexture.h" />
+		<Unit filename="Classes/LevelComplete.cpp" />
+		<Unit filename="Classes/LevelComplete.h" />
+		<Unit filename="Classes/LevelSelection.cpp" />
+		<Unit filename="Classes/LevelSelection.h" />
+		<Unit filename="Classes/Menu.cpp" />
+		<Unit filename="Classes/Menu.h" />
+		<Unit filename="Classes/MissileFire.cpp" />
+		<Unit filename="Classes/MissileFire.h" />
+		<Unit filename="Classes/Node.h" />
+		<Unit filename="Classes/NormalBall.cpp" />
+		<Unit filename="Classes/NormalBall.h" />
+		<Unit filename="Classes/NormalFire.cpp" />
+		<Unit filename="Classes/NormalFire.h" />
+		<Unit filename="Classes/Object.cpp" />
+		<Unit filename="Classes/Object.h" />
+		<Unit filename="Classes/Options.cpp" />
+		<Unit filename="Classes/Options.h" />
+		<Unit filename="Classes/Point.cpp" />
+		<Unit filename="Classes/Point.h" />
+		<Unit filename="Classes/Pop-Up.h" />
+		<Unit filename="Classes/PowerUps.cpp" />
+		<Unit filename="Classes/PowerUps.h" />
+		<Unit filename="Classes/ScreenManager.cpp" />
+		<Unit filename="Classes/ScreenManager.h" />
+		<Unit filename="Classes/Statics.h" />
+		<Unit filename="Classes/ThroughBall.cpp" />
+		<Unit filename="Classes/ThroughBall.h" />
+		<Unit filename="Classes/Word.cpp" />
+		<Unit filename="Classes/Word.h" />
+		<Unit filename="Classes/node (2).h" />
+		<Unit filename="Classes/q.cpp" />
+		<Unit filename="Classes/q.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
